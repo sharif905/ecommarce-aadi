@@ -1,0 +1,56 @@
+@media only screen and (min-width: 961px){
+    nav .lg-menu ul li{
+        margin: 0px 8px;
+    }
+    nav .bar{
+        display: none;
+    }
+    .banner-img.banner-big img {
+        height: 422px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 960px){
+    nav .lg-menu .pc-menu{
+        display: none !important;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .feature-banner .feature-banner-img img{
+        width: 100%;
+    }
+    .speciality h4{
+        font-size: 0.8rem !important;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    .banner-section .img-box{
+        padding-top: 20px;
+    }
+    .cart-img{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .checkoutpage h3{
+        text-align: center;
+    }
+    .search-box{
+        margin-top: 15px;
+    }
+    .quantity{
+        text-align: center;
+    }
+    .single-product-tab ul li{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .navbar-right ul li{
+        margin: 0 8px !important;
+    }
+    .navbar-right ul li i{
+        font-size: 0.7rem !important;
+    }
+}
